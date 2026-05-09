@@ -16,7 +16,6 @@
     color: #444;
   }
   
-  /* الشريط العلوي */
   nav.navbar {
     display: flex;
     justify-content: space-between;
@@ -42,7 +41,7 @@
     cursor: default;
   }
   
-  /* نص شعار متحرك */
+ 
   .title span {
     display: inline-block;
     opacity: 0;
@@ -73,7 +72,7 @@
     }
   }
   
-  /* روابط التنقل */
+ 
   .nav-links {
     list-style: none;
     display: flex;
@@ -93,7 +92,7 @@
     color: black;
   }
   
-  /* القائمة المنسدلة */
+  /* 
   .dropdown {
     position: relative;
   }
@@ -128,15 +127,13 @@
   .dropdown:hover .dropdown-menu {
     display: block;
   }
-  
-  /* لضمان عدم تغطية الشريط العلوي للمحتوى */
+  */
   .content-section {
     padding: 120px 20px 40px; /* 120px بسبب ارتفاع الشريط 90px + مسافة */
     background-color: #fff0f5;
     min-height: 100vh;
   }
   
-  /* الحاوية الرئيسية التي تحتوي الصور والنص */
   .content-wrapper {
     display: flex;
     gap: 30px;
@@ -145,7 +142,6 @@
     align-items: flex-start;
   }
   
-  /* شبكة الصور */
   .gallery {
     flex: 2;
     display: grid;
@@ -185,9 +181,8 @@
     color: #555;
     /*font-style: italic;*/
   }
-  /* نص "لمحة عن الموقع" */
   .about {
-    background-color: #fff0f5;  /* لون خلفية فاتح وردي */
+    background-color: #fff0f5; 
     padding: 30px 25px;
     border-radius: 20px;
     max-width: 450px;
@@ -280,7 +275,7 @@
     color: white;
   }
   /*=====================================================*/
-  /* قسم التواصل */
+ 
 .contact-section {
     padding: 120px 20px 40px;
     background-color: #fff0f5;
